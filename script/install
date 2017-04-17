@@ -1,0 +1,14 @@
+#!/bin/sh
+
+
+# Use https or ssh depending on how this repo is cloned.
+GITHUB_ORG_URL=$(git ls-remote --get-url | sed 's/\/.*\.git//')
+
+# repos on https://github.com/charlottejuniordevs/<repo>
+# that we want to install.
+repos=(api client)
+
+for repo in "${repos[@]}"; do
+  git clone "$GITHUB_ORG_URL/$repo.git"
+done
+
