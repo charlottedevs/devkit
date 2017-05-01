@@ -1,0 +1,11 @@
+(
+cd client
+git checkout master
+git pull
+)
+
+(
+cd api
+git checkout master
+git pull
+)
