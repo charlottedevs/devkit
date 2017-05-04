@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    foreman (0.84.0)
+      thor (~> 0.19.1)
+    gli (2.16.0)
+    nib (1.6.0)
+      gli (~> 2.16)
+    thor (0.19.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  foreman
+  nib
+
+BUNDLED WITH
+   1.14.5
