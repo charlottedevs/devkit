@@ -5,8 +5,8 @@ A simple wrapper for client and api for development
 ## Steps to get up and running
 ```sh
 script/install
-nib build
-nib up client
+script/setup
+bundle exec foreman start
 ```
 
 ## Development
